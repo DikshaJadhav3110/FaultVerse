@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:background="@color/medium_green"
+                android:backgroundTint="@color/dark_green"
+                android:outlineProvider="background"
+                app:cardCornerRadius="38dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/card_back"
+                    android:backgroundTint="@color/bg_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="@string/your_services"
+                        android:textColor="@color/dark_green"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/medium_green" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/land_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/card5_back"
+                            android:backgroundTint="@color/bg_color"
+                            android:contentDescription="LandLine"
+                            android:padding="200dp"
+                            android:src="@drawable/landline" />
+
+                        <View
+                            android:id="@+id/line1"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@color/medium_green" />
+
+                        <ImageButton
+                            android:id="@+id/broad_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/card5_back"
+                            android:backgroundTint="@color/bg_color"
+                            android:contentDescription="BroadBand"
+                            android:padding="20dp"
+                            android:src="@drawable/broadband" />
+
+                        <View
+                            android:id="@+id/line2"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@color/medium_green" />
+
+                        <ImageButton
+                            android:id="@+id/ft_btn"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/card5_back"
+                            android:backgroundTint="@color/bg_color"
+                            android:contentDescription="Ftth"
+                            android:padding="10dp"
+                            android:src="@drawable/ftth" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/medium_green" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/name_serv"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/cus_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/service_type"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/service_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView27"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/service_no"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/ser_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/status"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/comp_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="40dp"
+                        android:backgroundTint="@color/dark_green"
+                        android:text="@string/complaint"
+                        app:cornerRadius="35dp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/statusTrackingCardLandline"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:background="@color/medium_green"
+                android:backgroundTint="@color/dark_green"
+                android:outlineProvider="background"
+                app:cardCornerRadius="38dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/card_back"
+                    android:backgroundTint="@color/bg_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView332"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/landline_complaint"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <TextView
+                        android:id="@+id/statusCheckViewLand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="No Complaints"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/listViewStatusLand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView3001"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/complaint_type"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintTypeLand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView404"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/complaint_id"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintIdLand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView500"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/card_date"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintDateLand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view50"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/trackStatusLayoutLand"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView101"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginStart="10dp"
+
+                            android:layout_marginEnd="9dp"
+                            android:layout_marginBottom="280dp"
+                            android:gravity="center"
+                            android:text="@string/track_status"
+                            android:textColor="@color/dark_green"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <View
+                            android:id="@+id/view23"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="9dp"
+                            android:background="@color/medium_green"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+                        <View
+                            android:id="@+id/comp_pendingLand"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pendingLand"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/img_pendingLand" />
+
+                        <ImageView
+                            android:id="@+id/img_pendingLand"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/pending_icon"
+                            app:layout_constraintStart_toEndOf="@+id/comp_pendingLand"
+                            app:layout_constraintTop_toBottomOf="@+id/view23" />
+
+                        <View
+                            android:id="@+id/viewPlacedSupporterLand"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pendingLand"
+                            app:layout_constraintEnd_toEndOf="@+id/img_pendingLand"
+                            app:layout_constraintStart_toStartOf="@+id/img_pendingLand"
+                            app:layout_constraintTop_toTopOf="@+id/img_pendingLand" />
+
+                        <TextView
+                            android:id="@+id/textPendingLand"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/complaint_pending"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewPlacedSupporterLand"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_pendingLand" />
+
+                        <TextView
+                            android:id="@+id/comp_registerLand"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/your_complaint_is_being_registered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textPendingLand"
+                            app:layout_constraintStart_toStartOf="@+id/textPendingLand"
+                            app:layout_constraintTop_toBottomOf="@id/viewPlacedSupporterLand" />
+
+                        <View
+                            android:id="@+id/inprogLand"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.4"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@id/prog_confirmLand"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirmLand" />
+
+                        <ImageView
+                            android:id="@+id/prog_confirmLand"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/inprogress"
+                            app:layout_constraintStart_toEndOf="@id/inprogLand"
+                            app:layout_constraintTop_toBottomOf="@id/img_pendingLand" />
+
+                        <View
+                            android:id="@+id/viewconfirmSupporterLand"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/prog_confirmLand"
+                            app:layout_constraintEnd_toEndOf="@+id/prog_confirmLand"
+                            app:layout_constraintStart_toStartOf="@+id/prog_confirmLand"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirmLand" />
+
+                        <TextView
+                            android:id="@+id/textProgLand"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_in_progress"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewconfirmSupporterLand"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/prog_confirmLand" />
+
+                        <TextView
+                            android:id="@+id/comp_progressLand"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/process_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textProgLand"
+                            app:layout_constraintStart_toStartOf="@+id/textProgLand"
+                            app:layout_constraintTop_toBottomOf="@id/viewconfirmSupporterLand" />
+
+                        <View
+                            android:id="@+id/progbar1Land"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+                            android:alpha="0.4"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/inprogLand"
+                            app:layout_constraintEnd_toEndOf="@id/comp_pendingLand"
+                            app:layout_constraintStart_toStartOf="@id/comp_pendingLand"
+                            app:layout_constraintTop_toBottomOf="@id/comp_pendingLand" />
+
+                        <View
+                            android:id="@+id/viewCompleteLand"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.3"
+                            android:background="@drawable/shape_status_remaining"
+                            app:layout_constraintBottom_toBottomOf="@id/img_completeLand"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/img_completeLand" />
+
+                        <ImageView
+                            android:id="@+id/img_completeLand"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/completedtask"
+                            app:layout_constraintStart_toEndOf="@id/viewCompleteLand"
+                            app:layout_constraintTop_toBottomOf="@id/prog_confirmLand" />
+
+                        <View
+                            android:id="@+id/viewcompleteSupporterLand"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_completeLand"
+                            app:layout_constraintEnd_toEndOf="@+id/img_completeLand"
+                            app:layout_constraintStart_toStartOf="@+id/img_completeLand"
+                            app:layout_constraintTop_toTopOf="@+id/img_completeLand" />
+
+                        <TextView
+                            android:id="@+id/textCompLand"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_resolved"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewcompleteSupporterLand"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_completeLand" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/resolved_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textCompLand"
+                            app:layout_constraintStart_toStartOf="@+id/textCompLand"
+                            app:layout_constraintTop_toBottomOf="@id/viewcompleteSupporterLand" />
+
+                        <View
+                            android:id="@+id/progbar2Land"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+
+                            android:alpha="0.3"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/viewCompleteLand"
+                            app:layout_constraintEnd_toEndOf="@id/inprogLand"
+                            app:layout_constraintStart_toStartOf="@id/inprogLand"
+                            app:layout_constraintTop_toBottomOf="@id/inprogLand" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/statusTrackingCardBroadband"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/medium_green"
+                android:backgroundTint="@color/dark_green"
+                android:outlineProvider="background"
+                app:cardCornerRadius="38dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/card_back"
+                    android:backgroundTint="@color/bg_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/broadband_complaint"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view300"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <TextView
+                        android:id="@+id/statusCheckViewBroad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@string/no_complaints"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/listViewStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/complaint_type"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView40"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/complaint_id"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView50"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/card_date"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/trackStatusLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginStart="10dp"
+
+                            android:layout_marginEnd="9dp"
+                            android:layout_marginBottom="280dp"
+                            android:gravity="center"
+                            android:text="@string/track_status"
+                            android:textColor="@color/dark_green"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="9dp"
+                            android:background="@color/medium_green"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <View
+                            android:id="@+id/comp_pending"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pending"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/img_pending" />
+
+                        <ImageView
+                            android:id="@+id/img_pending"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/pending_icon"
+                            app:layout_constraintStart_toEndOf="@+id/comp_pending"
+                            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+                        <View
+                            android:id="@+id/viewPlacedSupporter"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pending"
+                            app:layout_constraintEnd_toEndOf="@+id/img_pending"
+                            app:layout_constraintStart_toStartOf="@+id/img_pending"
+                            app:layout_constraintTop_toTopOf="@+id/img_pending" />
+
+                        <TextView
+                            android:id="@+id/textPending"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/complaint_pending"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewPlacedSupporter"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_pending" />
+
+                        <TextView
+                            android:id="@+id/comp_register"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pending_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textPending"
+                            app:layout_constraintStart_toStartOf="@+id/textPending"
+                            app:layout_constraintTop_toBottomOf="@id/viewPlacedSupporter" />
+
+                        <View
+                            android:id="@+id/inprog"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.4"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@id/prog_confirm"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirm" />
+
+                        <ImageView
+                            android:id="@+id/prog_confirm"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/inprogress"
+                            app:layout_constraintStart_toEndOf="@id/inprog"
+                            app:layout_constraintTop_toBottomOf="@id/img_pending" />
+
+                        <View
+                            android:id="@+id/viewconfirmSupporter"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/prog_confirm"
+                            app:layout_constraintEnd_toEndOf="@+id/prog_confirm"
+                            app:layout_constraintStart_toStartOf="@+id/prog_confirm"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirm" />
+
+                        <TextView
+                            android:id="@+id/textProg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_in_progress"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewconfirmSupporter"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/prog_confirm" />
+
+                        <TextView
+                            android:id="@+id/comp_progress"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/process_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textProg"
+                            app:layout_constraintStart_toStartOf="@+id/textProg"
+                            app:layout_constraintTop_toBottomOf="@id/viewconfirmSupporter" />
+
+                        <View
+                            android:id="@+id/progbar1"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+                            android:alpha="0.4"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/inprog"
+                            app:layout_constraintEnd_toEndOf="@id/comp_pending"
+                            app:layout_constraintStart_toStartOf="@id/comp_pending"
+                            app:layout_constraintTop_toBottomOf="@id/comp_pending" />
+
+                        <View
+                            android:id="@+id/viewComplete"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.3"
+                            android:background="@drawable/shape_status_remaining"
+                            app:layout_constraintBottom_toBottomOf="@id/img_complete"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/img_complete" />
+
+                        <ImageView
+                            android:id="@+id/img_complete"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/completedtask"
+                            app:layout_constraintStart_toEndOf="@id/viewComplete"
+                            app:layout_constraintTop_toBottomOf="@id/prog_confirm" />
+
+                        <View
+                            android:id="@+id/viewcompleteSupporter"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_complete"
+                            app:layout_constraintEnd_toEndOf="@+id/img_complete"
+                            app:layout_constraintStart_toStartOf="@+id/img_complete"
+                            app:layout_constraintTop_toTopOf="@+id/img_complete" />
+
+                        <TextView
+                            android:id="@+id/textComp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_resolved"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewcompleteSupporter"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_complete" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/resolved_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textComp"
+                            app:layout_constraintStart_toStartOf="@+id/textComp"
+                            app:layout_constraintTop_toBottomOf="@id/viewcompleteSupporter" />
+
+                        <View
+                            android:id="@+id/progbar2"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+
+                            android:alpha="0.3"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/viewComplete"
+                            app:layout_constraintEnd_toEndOf="@id/inprog"
+                            app:layout_constraintStart_toStartOf="@id/inprog"
+                            app:layout_constraintTop_toBottomOf="@id/inprog" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/statusTrackingCardFTTH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:background="@color/medium_green"
+                android:backgroundTint="@color/dark_green"
+                android:outlineProvider="background"
+                app:cardCornerRadius="38dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/card_back"
+                    android:backgroundTint="@color/bg_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView3331"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="FTTH Complaint"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view30012"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <TextView
+                        android:id="@+id/statusCheckViewFTTH"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="@string/no_complaints"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/listViewStatusFTTH"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView30FTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/complaint_type"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintTypeFTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView40FTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/complaint_id"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintIdFTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView50FTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/card_date"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/complaintDateFTTH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:text="ABC" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view5FTTH"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/medium_green" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/trackStatusLayoutFTTH"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView10FTTH"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_marginStart="10dp"
+
+                            android:layout_marginEnd="9dp"
+                            android:layout_marginBottom="280dp"
+                            android:gravity="center"
+                            android:text="@string/track_status"
+                            android:textColor="@color/dark_green"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <View
+                            android:id="@+id/view2FTTH"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="9dp"
+                            android:background="@color/medium_green"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10FTTH" />
+
+                        <View
+                            android:id="@+id/comp_pendingFTTH"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginStart="30dp"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pendingFTTH"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/img_pendingFTTH" />
+
+                        <ImageView
+                            android:id="@+id/img_pendingFTTH"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/pending_icon"
+                            app:layout_constraintStart_toEndOf="@+id/comp_pendingFTTH"
+                            app:layout_constraintTop_toBottomOf="@+id/view2FTTH" />
+
+                        <View
+                            android:id="@+id/viewPlacedSupporterFTTH"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_pendingFTTH"
+                            app:layout_constraintEnd_toEndOf="@+id/img_pendingFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/img_pendingFTTH"
+                            app:layout_constraintTop_toTopOf="@+id/img_pendingFTTH" />
+
+                        <TextView
+                            android:id="@+id/textPendingFTTH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:text="@string/complaint_pending"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewPlacedSupporterFTTH"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_pendingFTTH" />
+
+                        <TextView
+                            android:id="@+id/comp_registerFTTH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/your_complaint_is_being_registered"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textPendingFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/textPendingFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/viewPlacedSupporterFTTH" />
+
+                        <View
+                            android:id="@+id/inprogFTTH"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.4"
+                            android:background="@drawable/shape_status_completed"
+                            app:layout_constraintBottom_toBottomOf="@id/prog_confirmFTTH"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirmFTTH" />
+
+                        <ImageView
+                            android:id="@+id/prog_confirmFTTH"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/inprogress"
+                            app:layout_constraintStart_toEndOf="@id/inprogFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/img_pendingFTTH" />
+
+                        <View
+                            android:id="@+id/viewconfirmSupporterFTTH"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/prog_confirmFTTH"
+                            app:layout_constraintEnd_toEndOf="@+id/prog_confirmFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/prog_confirmFTTH"
+                            app:layout_constraintTop_toTopOf="@+id/prog_confirmFTTH" />
+
+                        <TextView
+                            android:id="@+id/textProgFTTH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_in_progress"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewconfirmSupporterFTTH"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/prog_confirmFTTH" />
+
+                        <TextView
+                            android:id="@+id/comp_progressFTTH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/process_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textProgFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/textProgFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/viewconfirmSupporterFTTH" />
+
+                        <View
+                            android:id="@+id/progbar1FTTH"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+                            android:alpha="0.4"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/inprogFTTH"
+                            app:layout_constraintEnd_toEndOf="@id/comp_pendingFTTH"
+                            app:layout_constraintStart_toStartOf="@id/comp_pendingFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/comp_pendingFTTH" />
+
+                        <View
+                            android:id="@+id/viewCompleteFTTH"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginStart="29dp"
+                            android:alpha="0.3"
+                            android:background="@drawable/shape_status_remaining"
+                            app:layout_constraintBottom_toBottomOf="@id/img_completeFTTH"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/img_completeFTTH" />
+
+                        <ImageView
+                            android:id="@+id/img_completeFTTH"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:alpha="1"
+                            android:src="@drawable/completedtask"
+                            app:layout_constraintStart_toEndOf="@id/viewCompleteFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/prog_confirmFTTH" />
+
+                        <View
+                            android:id="@+id/viewcompleteSupporterFTTH"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+                            app:layout_constraintBottom_toBottomOf="@+id/img_completeFTTH"
+                            app:layout_constraintEnd_toEndOf="@+id/img_completeFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/img_completeFTTH"
+                            app:layout_constraintTop_toTopOf="@+id/img_completeFTTH" />
+
+                        <TextView
+                            android:id="@+id/textCompFTTH"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:alpha="1"
+                            android:text="@string/complaint_resolved"
+                            android:textColor="@color/dark_green"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/viewcompleteSupporterFTTH"
+                            app:layout_constraintEnd_toEndOf="parent"
+
+                            app:layout_constraintStart_toEndOf="@+id/img_completeFTTH" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:alpha="1"
+                            android:text="@string/resolved_info"
+                            android:textColor="@color/dark_green"
+                            android:textSize="15sp"
+                            app:layout_constraintEnd_toEndOf="@+id/textCompFTTH"
+                            app:layout_constraintStart_toStartOf="@+id/textCompFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/viewcompleteSupporterFTTH" />
+
+                        <View
+                            android:id="@+id/progbar2FTTH"
+                            android:layout_width="4dp"
+                            android:layout_height="0dp"
+
+                            android:alpha="0.3"
+                            android:background="@color/dark_green"
+                            app:layout_constraintBottom_toTopOf="@id/viewCompleteFTTH"
+                            app:layout_constraintEnd_toEndOf="@id/inprogFTTH"
+                            app:layout_constraintStart_toStartOf="@id/inprogFTTH"
+                            app:layout_constraintTop_toBottomOf="@id/inprogFTTH" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

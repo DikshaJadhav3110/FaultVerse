@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FaultVerse" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="o">@color/dark_green</item>
+    </style>
+    <style name="Theme.FaultVerse" parent="Base.Theme.FaultVerse" />
+</resources>

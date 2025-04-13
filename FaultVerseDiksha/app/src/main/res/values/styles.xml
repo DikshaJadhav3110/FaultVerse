@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ProfileView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">212dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/bg_color</item>
+        <item name="android:backgroundTint">@color/bg_color</item>
+    </style>
+</resources>

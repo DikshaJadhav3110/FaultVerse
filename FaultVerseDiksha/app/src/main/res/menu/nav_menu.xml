@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_profile"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/baseline_support"
+            android:title="Support"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/baseline_history"
+            android:title="History"/>
+
+        <item
+            android:id="@+id/nav_appSettings"
+            android:icon="@drawable/baseline_settings"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

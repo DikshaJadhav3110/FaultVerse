@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "337905730604",
+    "project_id": "mtnl-users101",
+    "storage_bucket": "mtnl-users101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337905730604:android:dce400562d07ebcdb33d89",
+        "android_client_info": {
+          "package_name": "com.mtnl.faultverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337905730604-ckqcapto67so361bpaevbkakur7466hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANTSaAbygeV5WQhJctWWhVw8V6pidlw7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337905730604-ckqcapto67so361bpaevbkakur7466hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

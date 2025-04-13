@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">FaultVerse</string>
+    <string name="navigation_drawer_open" translatable="false">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close Navigation Drawer</string>
+    <string name="verify">Verify</string>
+    <string name="otp">OTP</string>
+    <string name="date_birth" translatable="false">DD-MM-YY</string>
+    <string name="enter_your_otp">Enter Your Otp</string>
+    <string name="code_valid_until">Code valid until :</string>
+    <string name="_02_00" translatable="false">02:00</string>
+    <string name="didn_t_recieve_yet_resend_otp">Didn\'t Recieve Yet? Resend OTP</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="login">LOGIN</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t Have an Account? Sign Up</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="signup">SIGNUP</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="already_have_an_account_login">Already Have an Account? Login</string>
+    <string name="cus_details_land" translatable="false">Name: ABC\nRecharge Date: A/B/C\nExpiry Date: A/B/C\nPlan Type: Landline</string>
+    <string name="cus_details_broad" translatable="false"><b>Name:</b> PQRS\n<b>Recharge Date:</b> P/Q/R\n<b>Expiry Date:</b> P/Q/R</string>
+    <string name="cus_details_ft" id="ft_cus" translatable="false"><b>Name:</b> XYZ\n<b>Recharge Date:</b> X/Y/Z\n<b>Expiry Date:</b> X/Y/Z</string>
+    <string name="complaint">Complaint ID</string>
+    <string name="i_am_not_a_robot">I am not a robot</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_street_address">Enter Street Address</string>
+    <string name="district">District</string>
+    <string name="dob">DOB</string>
+    <string name="pincode">Pincode</string>
+    <string name="enter_your_pincode">Enter Your Pincode</string>
+    <string name="landline">Landline</string>
+    <string name="enter_your_landline">Enter Your Landline</string>
+    <string name="enter_your_broadband">Enter Your Broadband</string>
+    <string name="ftth">FTTH</string>
+    <string name="enter_your_ftth">Enter Your Ftth</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="support">Support</string>
+    <string name="profile">Profile</string>
+    <string name="your_services">Your Services</string>
+    <string name="name_serv">Name :</string>
+    <string name="service_type">Service Type :</string>
+    <string name="service_no">Service No. :</string>
+    <string name="status">Status :</string>
+    <string name="track_status">Track Status</string>
+    <string name="pending">Pending</string>
+    <string name="contact_us">Contact US</string>
+    <string name="ask_query">Ask Query</string>
+    <string name="call_us">Call Us</string>
+    <string name="mail_us">Mail Us</string>
+    <string name="send">Send</string>
+    <string name="complaint_history">Complaint History</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="enter_your_district">Enter Your District</string>
+    <string-array name="tele_options">
+        <item>Dead</item>
+        <item>Miscellaneous</item>
+        <item>Instrument Default</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="broad_options">
+        <item>Example 4</item>
+        <item>Example 5</item>
+        <item>Example 6</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="ftth_options">
+        <item>Example 7</item>
+        <item>Example 8</item>
+        <item>Example 9</item>
+        <item>Other</item>
+    </string-array>
+    <string name="card_id">ID:</string>
+    <string name="card_serv">Service:</string>
+    <string name="card_date">Date:</string>
+    <string name="dis" translatable="false">Completed. on date and stuff\n asdad\nsdasdada\neqwe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="app_language">App Language</string>
+    <string name="app_settings">App Settings</string>
+    <string name="privacy_and_policy">Privacy and Policy</string>
+    <string name="start_by_providing_an_introduction_to_your_complaint_management_application_and_its_purpose_explain_that_this_privacy_and_policy_statement_governs_the_collection_use_and_protection_of_user_information_data_collection_specify_the_types_of_personal_information_collected_such_as_names_contact_information_complaint_details_and_any_other_relevant_data_clarify_that_this_information_is_voluntarily_provided_by_users_consent_explain_that_users_must_explicitly_consent_to_the_collection_and_processing_of_their_personal_information_clearly_state_how_their_information_will_be_used_and_disclose_any_third_parties_involved_users_should_have_the_option_to_withdraw_their_consent_at_any_time_use_of_information_describe_how_the_collected_data_will_be_used_emphasize_that_the_information_is_used_solely_for_the_purpose_of_managing_and_addressing_user_complaints_clarify_that_data_will_not_be_used_for_any_other_purposes_without_obtaining_explicit_consent_storage_and_security_highlight_the_measures_taken_to_ensure_the_security_of_user_data_explain_the_storage_methods_encryption_techniques_access_controls_and_any_other_security_practices_implemented_to_protect_personal_information_from_unauthorized_access_loss_or_misuse_third_party_sharing_if_any_user_data_is_shared_with_third_parties_disclose_this_and_provide_details_on_the_recipients_purpose_and_safeguards_in_place_to_protect_user_privacy_clarify_that_third_party_access_is_limited_to_what_is_necessary_for_complaint_resolution_and_that_all_parties_adhere_to_data_protection_regulations_data_retention_specify_how_long_user_data_will_be_retained_explain_the_criteria_used_to_determine_the_retention_period_ensuring_it_aligns_with_the_purpose_for_which_the_data_was_collected_once_the_data_is_no_longer_needed_clarify_that_it_will_be_securely_deleted_or_anonymized_user_rights_inform_users_about_their_rights_regarding_their_personal_data_include_rights_such_as_the_right_to_access_correct_delete_restrict_processing_and_data_portability_explain_the_process_for_users_to_exercise_these_rights_including_contact_information_for_submitting_requests_cookies_and_tracking_if_your_application_uses_cookies_or_similar_tracking_technologies_explain_their_purpose_the_information_collected_and_how_users_can_manage_their_preferences_legal_compliance_state_that_your_complaint_management_application_complies_with_relevant_data_protection_laws_and_regulations_such_as_gdpr_or_ccpa_provide_contact_information_for_any_data_protection_or_privacy_inquiries_policy_updates_state_that_the_privacy_policy_may_be_updated_periodically_notify_users_about_significant_changes_and_indicate_the_effective_date_of_the_policy_encourage_users_to_review_the_policy_periodically_for_any_updates_contact_information_provide_contact_details_including_an_email_address_or_a_dedicated_contact_form_for_users_to_reach_out_with_privacy_related_concerns_or_inquiries">Start by providing an introduction to your complaint management application and its purpose. Explain that this Privacy and Policy statement governs the collection, use, and protection of user information. Data Collection: Specify the types of personal information collected, such as names, contact information, complaint details, and any other relevant data. Clarify that this information is voluntarily provided by users. Consent: Explain that users must explicitly consent to the collection and processing of their personal information. Clearly state how their information will be used and disclose any third parties involved. Users should have the option to withdraw their consent at any time. Use of Information: Describe how the collected data will be used. Emphasize that the information is used solely for the purpose of managing and addressing user complaints. Clarify that data will not be used for any other purposes without obtaining explicit consent. Storage and Security: Highlight the measures taken to ensure the security of user data. Explain the storage methods, encryption techniques, access controls, and any other security practices implemented to protect personal information from unauthorized access, loss, or misuse. Third-Party Sharing: If any user data is shared with third parties, disclose this and provide details on the recipients, purpose, and safeguards in place to protect user privacy. Clarify that third-party access is limited to what is necessary for complaint resolution and that all parties adhere to data protection regulations. Data Retention: Specify how long user data will be retained. Explain the criteria used to determine the retention period, ensuring it aligns with the purpose for which the data was collected. Once the data is no longer needed, clarify that it will be securely deleted or anonymized. User Rights: Inform users about their rights regarding their personal data. Include rights such as the right to access, correct, delete, restrict processing, and data portability. Explain the process for users to exercise these rights, including contact information for submitting requests. Cookies and Tracking: If your application uses cookies or similar tracking technologies, explain their purpose, the information collected, and how users can manage their preferences. Legal Compliance: State that your complaint management application complies with relevant data protection laws and regulations, such as GDPR or CCPA. Provide contact information for any data protection or privacy inquiries. Policy Updates: State that the privacy policy may be updated periodically. Notify users about significant changes and indicate the effective date of the policy. Encourage users to review the policy periodically for any updates. Contact Information: Provide contact details, including an email address or a dedicated contact form, for users to reach out with privacy-related concerns or inquiries.</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+    <string name="enter_your_gender" translatable="false">Enter Your Gender</string>
+    <string name="broadband">BroadBand</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="terms_all">User eligibility: Users must be of legal age or have parental consent. User responsibilities: Users must provide accurate information, avoid fraudulent activities, respect privacy, and comply with laws. Complaint submission and handling: The application facilitates the complaint resolution process but does not guarantee resolution. Intellectual property: Users must respect the application\'s ownership and intellectual property rights. Limitations of liability: The application and its operators are not liable for any damages or losses incurred by users. Data protection and privacy: User data is collected, used, and protected according to the Privacy Policy. Third-party links and content: The application is not responsible for external resources accessed by users. Termination: The application can suspend or terminate user access for violations or other reasons. Modifications to the terms: The terms may be updated, and users should review them periodically. Governing law and jurisdiction: Disputes will be governed by specific laws and jurisdiction. Contact information: Users can reach out with inquiries or concerns using provided contact details.</string>
+    <string name="type">Type</string>
+    <string name="view_more">View More</string>
+    <string name="complaint_i_d">Complaint I\'d</string>
+    <string name="your_service">Your Service</string>
+    <string name="broadband_no">Broadband no.</string>
+    <string name="thanks_for_using_mtnl_services">THANKS FOR USING MTNL SERVICES : )</string>
+    <string name="about_faultverse">About FaultVerse</string>
+    <string name="about_f">At FaultVerse, customer satisfaction is our top priority. Our Complaint Management team consists ofexperienced professionals who are dedicated to addressing customer concerns with speed and efficiency.</string>
+    <string name="current_address">Current Address</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="update_changes">Update Changes</string>
+    <string name="current_first_name">Current First name</string>
+    <string name="edit_first_name">Edit First name</string>
+    <string name="complaint_pending">Complaint Pending</string>
+    <string name="pending_info">Your complaint is being registered</string>
+    <string name="complaint_in_progress">Complaint In-Progress..</string>
+    <string name="process_info">Your complaint is being processed</string>
+    <string name="complaint_resolved">Complaint Resolved.</string>
+    <string name="resolved_info">Your complaint was successfull resolved!</string>
+    <string name="comp_btn">Complaint</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="register">Register</string>
+    <string name="landline_complaint">Landline Complaint</string>
+    <string name="choose_complaint_option">Choose Complaint Option</string>
+    <string name="submit">Submit</string>
+    <string name="complaint_id">Complaint ID:</string>
+    <string name="issue_desc">Issue Desc:</string>
+    <string name="remark">Remark:</string>
+    <string name="cleared_date">Cleared Date:</string>
+    <string name="ftth_no">FTTH no.</string>
+    <string name="about_info">At FaultVerse, customer satisfaction is our top priority. Our Complaint Management team consists ofexperienced professionals who are dedicated to addressing customer concerns with speed and efficiency.</string>
+    <string name="how_can_we_help_you">How can we help you?</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="current_dob">Current DOB</string>
+    <string name="edit_dob">Edit DOB</string>
+    <string name="current_email_i_d">Current Email I\'d</string>
+    <string name="edit_email_i_d">Edit Email I\'d</string>
+    <string name="complaint_history_bold">COMPLAINT HISTORY</string>
+    <string name="complaint_type">Complaint Type :</string>
+    <string name="your_complaint_is_being_registered">Your complaint is being registered</string>
+    <string name="broadband_complaint">Broadband Complaint</string>
+    <string name="enter_broadband_number">Enter Broadband Number</string>
+    <string name="no_complaints">No Complaints</string>
+    <string name="current_last_name">Current Last name</string>
+    <string name="edit_last_name">Edit Last name</string>
+    <string name="current_phone_no">Current Phone no.</string>
+    <string name="edit_phone_no">Edit Phone no.</string>
+    <string name="registered_phone_no">Registered Phone no.</string>
+    <string name="change">Change</string>
+    <string name="rate_faultverse">Rate FaultVerse</string>
+    <string name="prob_fault">If FaultVerse solves your problems. Would you mind rating us on Play Store.</string>
+    <string name="rate_now">Rate now</string>
+    <string name="may_be_later">May Be, later</string>
+</resources>

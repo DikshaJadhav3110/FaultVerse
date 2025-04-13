@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/privac_bg"
+    tools:context=".PrivacyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/privacy"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/privacy_and_policy"
+            android:textColor="@color/dark_green"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/start_by_providing_an_introduction_to_your_complaint_management_application_and_its_purpose_explain_that_this_privacy_and_policy_statement_governs_the_collection_use_and_protection_of_user_information_data_collection_specify_the_types_of_personal_information_collected_such_as_names_contact_information_complaint_details_and_any_other_relevant_data_clarify_that_this_information_is_voluntarily_provided_by_users_consent_explain_that_users_must_explicitly_consent_to_the_collection_and_processing_of_their_personal_information_clearly_state_how_their_information_will_be_used_and_disclose_any_third_parties_involved_users_should_have_the_option_to_withdraw_their_consent_at_any_time_use_of_information_describe_how_the_collected_data_will_be_used_emphasize_that_the_information_is_used_solely_for_the_purpose_of_managing_and_addressing_user_complaints_clarify_that_data_will_not_be_used_for_any_other_purposes_without_obtaining_explicit_consent_storage_and_security_highlight_the_measures_taken_to_ensure_the_security_of_user_data_explain_the_storage_methods_encryption_techniques_access_controls_and_any_other_security_practices_implemented_to_protect_personal_information_from_unauthorized_access_loss_or_misuse_third_party_sharing_if_any_user_data_is_shared_with_third_parties_disclose_this_and_provide_details_on_the_recipients_purpose_and_safeguards_in_place_to_protect_user_privacy_clarify_that_third_party_access_is_limited_to_what_is_necessary_for_complaint_resolution_and_that_all_parties_adhere_to_data_protection_regulations_data_retention_specify_how_long_user_data_will_be_retained_explain_the_criteria_used_to_determine_the_retention_period_ensuring_it_aligns_with_the_purpose_for_which_the_data_was_collected_once_the_data_is_no_longer_needed_clarify_that_it_will_be_securely_deleted_or_anonymized_user_rights_inform_users_about_their_rights_regarding_their_personal_data_include_rights_such_as_the_right_to_access_correct_delete_restrict_processing_and_data_portability_explain_the_process_for_users_to_exercise_these_rights_including_contact_information_for_submitting_requests_cookies_and_tracking_if_your_application_uses_cookies_or_similar_tracking_technologies_explain_their_purpose_the_information_collected_and_how_users_can_manage_their_preferences_legal_compliance_state_that_your_complaint_management_application_complies_with_relevant_data_protection_laws_and_regulations_such_as_gdpr_or_ccpa_provide_contact_information_for_any_data_protection_or_privacy_inquiries_policy_updates_state_that_the_privacy_policy_may_be_updated_periodically_notify_users_about_significant_changes_and_indicate_the_effective_date_of_the_policy_encourage_users_to_review_the_policy_periodically_for_any_updates_contact_information_provide_contact_details_including_an_email_address_or_a_dedicated_contact_form_for_users_to_reach_out_with_privacy_related_concerns_or_inquiries" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

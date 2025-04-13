@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/land"
+        android:title="Landline"
+        android:icon="@drawable/landline"/>
+
+    <item
+        android:id="@+id/broadComplaint"
+        android:title="Broadband"
+        android:icon="@drawable/broadband"
+        />
+
+    <item
+        android:id="@+id/ftth"
+        android:title="FTTH"
+        android:icon="@drawable/ftth"/>
+
+
+</menu>
